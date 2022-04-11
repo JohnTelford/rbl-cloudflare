@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="overview.html">Overview</a></li><li class="chapter-item expanded affix "><a href="cloudflare.html" class="active">Cloudflare</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="overview.html">Overview</a></li><li class="chapter-item expanded affix "><a href="cloudflare.html" class="active">Cloudflare</a></li><li class="chapter-item expanded affix "><a href="gateway.html">Gateway</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -136,72 +136,6 @@
                     <main>
                         <h1 id="cloudflare"><a class="header" href="#cloudflare">Cloudflare</a></h1>
 <p>Cloudflare secures and ensures the reliability of your external-facing resources such as websites, APIs, and applications. It protects your internal resources such as behind-the-firewall applications, teams, and devices. And it is your platform for developing globally-scalable applications.</p>
-<h1 id="access"><a class="header" href="#access">Access</a></h1>
-<p><a href="https://www.cloudflare.com/products/zero-trust/access/">Cloudflare Access</a></p>
-<blockquote>
-</blockquote>
-<ul>
-<li>determines if a user should be allowed access to an application or not. It uses our global network to check every request or connection for identity, device posture, location, multifactor method, and many more attributes to do so. Access also logs every request and connection — providing administrators with high-visibility. The upshot of all of this: it enables customers to deprecate their legacy VPNs.</li>
-</ul>
-<blockquote>
-</blockquote>
-<ul>
-<li>Granular application access control without lateral movement. Users can seamlessly access the resources they need and are blocked from those they do not.</li>
-<li>Enforce consistent role-based access controls across all SaaS and self-hosted applications -- cloud, hybrid, or on-premises.</li>
-</ul>
-<h2 id="protect-any-app"><a class="header" href="#protect-any-app">Protect any app</a></h2>
-<ul>
-<li>Cloudflare is both identity and application agnostic, allowing you to protect any application, SaaS, cloud, or on-premises with your preferred identity provider.</li>
-<li>Apply strong, consistent authentication methods to even legacy applications with IP firewall and Zero Trust rules.</li>
-</ul>
-<h2 id="enable-identity-federation-across-multiple-identity-providers"><a class="header" href="#enable-identity-federation-across-multiple-identity-providers">Enable identity federation across multiple identity providers</a></h2>
-<ul>
-<li>Integrate all of your corporate identity providers (Okta, Azure AD, and more) for safer migrations, acquisitions and third-party user access.</li>
-<li>Enable one-time-pins for temporary access.</li>
-</ul>
-<h1 id="zero-trust"><a class="header" href="#zero-trust">Zero Trust</a></h1>
-<p><a href="https://developers.cloudflare.com/cloudflare-one/">Cloudflare Zero Trust documentation</a></p>
-<blockquote>
-</blockquote>
-<p>Zero Trust Security is an IT security model that requires strict identity verification for every person and device trying to access resources on a private network, regardless of whether they are sitting within or outside the network perimeter. No single specific technology is associated with zero trust architecture; it is a holistic approach to network security that incorporates several different principles and technologies.</p>
-<p>Cloudflare Zero Trust replaces legacy security perimeters with our global edge, making the Internet faster and safer for teams around the world.</p>
-<p>Zero Trust access for all of your applications.</p>
-<ul>
-<li>Authenticate users on our global edge network</li>
-<li>Onboard third-party users seamlessly</li>
-<li>Log every event and request</li>
-</ul>
-<p>A Secure Web Gateway to protect users and devices.</p>
-<ul>
-<li>Enforce your company’s Acceptable Use Policy (AUP)</li>
-<li>Block risky sites with custom blocklists and built-in threat intel</li>
-<li>Enhance visibility and protection into SaaS applications</li>
-</ul>
-<p>A fast and reliable solution for remote browsing.</p>
-<ul>
-<li>Execute all browser code in the cloud</li>
-<li>Mitigate the impact of attacks</li>
-<li>Seamless, lightning-fast end user experience</li>
-</ul>
-<blockquote>
-</blockquote>
-<p>Instead of a VPN, users connect to corporate resources through a client or a web browser. As requests are routed and accelerated through Cloudflare’s edge, they are evaluated against Zero Trust rules incorporating signals from your identity providers, devices, and other context. Where RDP software, SMB file viewers, and other thick client programs used to require a VPN for private network connectivity, teams can now privately route any TCP traffic through Cloudflare’s network where it’s accelerated, verified, and filtered in a single pass, facilitating improved performance and security.</p>
-<h1 id="identity"><a class="header" href="#identity">Identity</a></h1>
-<p><a href="https://developers.cloudflare.com/cloudflare-one/identity/">Identity</a></p>
-<p>Cloudflare Zero Trust replaces legacy security perimeters with our global edge, making the Internet faster and safer for teams around the world.</p>
-<p>Zero Trust access for all of your applications.</p>
-<p>Authenticate users on our global edge network
-Onboard third-party users seamlessly
-Log every event and request
-A Secure Web Gateway to protect users and devices.</p>
-<p>Enforce your company’s Acceptable Use Policy (AUP)
-Block risky sites with custom blocklists and built-in threat intel
-Enhance visibility and protection into SaaS applications
-A fast and reliable solution for remote browsing.</p>
-<p>Execute all browser code in the cloud
-Mitigate the impact of attacks
-Seamless, lightning-fast end user experience</p>
-<p>3</p>
 
                     </main>
 
@@ -209,6 +143,9 @@ Seamless, lightning-fast end user experience</p>
                         <!-- Mobile navigation buttons -->
                             <a rel="prev" href="overview.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="gateway.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
                     </nav>
@@ -219,10 +156,27 @@ Seamless, lightning-fast end user experience</p>
                     <a rel="prev" href="overview.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+                    <a rel="next" href="gateway.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
